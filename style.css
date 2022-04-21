@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;   
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+#drum-machine{
+    min-height: 375px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: #333 solid 2px;
+}
+
+.row{
+    height: 100%;
+}
+
+#display{
+    min-height: 50px;
+    border: 1px solid #333;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.buttons, .image{
+    display: flex;
+    padding: 25px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.buttons{
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+button{
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.5);
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dota Hero Response Samples: Axe</title>
+</head>
+<body>
+
+    <h1>DOTA 2 HERO RESPONSES: AXE</h1>
+
+    <div id="drum-machine" class="container">
+        <div class="row justify-content-center">
+            <div id="display" class="alert alert-light col-9">
+
+            </div>
+
+            <div class="buttons col-6">
+                <button class="drum-pad btn btn-success" id="response1" onclick="playaudio('Q')">
+                Q
+                <audio src="./axe1.mp3" class="clip" id="Q"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-success" id="response2" onclick="playaudio('W')">
+                    W
+                    <audio src="./axe2.mp3" class="clip" id="W"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-success" id="response3" onclick="playaudio('E')">
+                    E
+                    <audio src="./axe3.mp3" class="clip" id="E"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-warning" id="response4" onclick="playaudio('A')">
+                    A
+                    <audio src="./axe4.mp3" class="clip" id="A"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-warning" id="response5" onclick="playaudio('S')">
+                    S
+                    <audio src="./axe5.mp3" class="clip" id="S"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-warning" id="response6" onclick="playaudio('D')">
+                    D
+                    <audio src="./axe6.mp3" class="clip" id="D"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-danger" id="response7" onclick="playaudio('Z')">
+                    Z
+                    <audio src="./axe7.mp3" class="clip" id="Z"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-danger" id="response8" onclick="playaudio('X')">
+                    X
+                    <audio src="./axe8.mp3" class="clip" id="X"></audio>
+                </button>
+
+                <button class="drum-pad btn btn-danger" id="response9" onclick="playaudio('C')">
+                    C
+                    <audio src="./axe9.mp3" class="clip" id="C"></audio>
+                </button>
+            </div>
+
+            <div class="image col-6">
+                <img src="./Axe_icon.jpg" class="thumbnail">
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
